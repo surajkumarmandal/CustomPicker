@@ -17,6 +17,7 @@
 		44B8FA7827074097002E55BE /* CustomPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8FA7727074097002E55BE /* CustomPickerTests.swift */; };
 		44B8FA8227074097002E55BE /* CustomPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8FA8127074097002E55BE /* CustomPickerUITests.swift */; };
 		44B8FA8427074097002E55BE /* CustomPickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8FA8327074097002E55BE /* CustomPickerUITestsLaunchTests.swift */; };
+		44B8FA91270744BF002E55BE /* ToolbarPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B8FA90270744BF002E55BE /* ToolbarPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		44B8FA7D27074097002E55BE /* CustomPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B8FA8127074097002E55BE /* CustomPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerUITests.swift; sourceTree = "<group>"; };
 		44B8FA8327074097002E55BE /* CustomPickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44B8FA90270744BF002E55BE /* ToolbarPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				44B8FA6B27074097002E55BE /* LaunchScreen.storyboard */,
 				44B8FA6E27074097002E55BE /* Info.plist */,
 				44B8FA6627074095002E55BE /* CustomPicker.xcdatamodeld */,
+				44B8FA90270744BF002E55BE /* ToolbarPickerView.swift */,
 			);
 			path = CustomPicker;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44B8FA6227074095002E55BE /* ViewController.swift in Sources */,
+				44B8FA91270744BF002E55BE /* ToolbarPickerView.swift in Sources */,
 				44B8FA5E27074095002E55BE /* AppDelegate.swift in Sources */,
 				44B8FA6827074095002E55BE /* CustomPicker.xcdatamodeld in Sources */,
 				44B8FA6027074095002E55BE /* SceneDelegate.swift in Sources */,
